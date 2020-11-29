@@ -36,7 +36,7 @@ with open(nodes_file_location,'r') as f:
 vals=vals.strip()
 minions=vals.split('\n')
 
-print('Following nodes in the cluster',minions)
+print('Following nodes in the cluster::::',minions)
 
 for m in minions:
 	port,ip=m.split(':')
